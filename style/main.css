@@ -42,9 +42,11 @@ html {
   display: grid;
   grid-template-columns: 25% auto 25%;
   grid-template-rows: 6;
+  grid-auto-rows: minmax(375px, auto);
 }
 .header {
   grid-area: 1/1/1/4;
+  height: 665px;
 }
 .long-right-block {
   grid-column: 2/4;
@@ -60,5 +62,6 @@ html {
 }
 .footer {
   grid-column: 1/4;
+  height: 350px;
 }
 /*# sourceMappingURL=./main.css.map */
